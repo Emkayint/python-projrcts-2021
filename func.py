@@ -1,13 +1,13 @@
 def nums(x):
 	for i in range(x):
 	    print(i)
-	    return
+	    # return
 nums(10)
 
 print('\n')
 
 cubes = [i**3 for i in range(5)]
-print ( cubes)
+print (cubes)
 
 num = (55, 44, 33, 22)
 print(max(min(num[:2]),abs(-42)))
