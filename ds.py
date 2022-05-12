@@ -1,0 +1,1 @@
+players = [180, 172, 178, 185, 190, 195, 192, 200, 210, 190]count = 0mean = 0variance = 0for i in players:    count += 1    mean += iavg = mean/countfor x in players:    variance += (avg - x)**2    std = (variance / count) ** 0.5ans = players[(players > (int(mean - std))) & (players < (int(mean + std)))]print(ans)
