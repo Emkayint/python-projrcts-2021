@@ -12,13 +12,14 @@ x = [6, 4, 2, 9]
 x = x[::-1]
 print(x[0] + x[2])
 
-N = (input()
+N = (input())
 
 for i in (N+1):
 	count = +1
 	print(count)
 	
-def nums(x):
-	for i in range(x)
-	print(i)
-nums()
+def nums(y):
+	for i in range(y):
+		print(i)
+
+nums(4)
